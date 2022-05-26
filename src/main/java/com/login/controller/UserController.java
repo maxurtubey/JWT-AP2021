@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin()
 public class UserController {
 
-	@RequestMapping({ "/saludo" })
-	public String saludo() {
-		return "Hola Mundo";
+	@RequestMapping({ "/test" })
+	public String texto() {
+		return "El test funciona";
 	}
 
 }
